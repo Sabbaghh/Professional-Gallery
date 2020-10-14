@@ -3,6 +3,7 @@
   height: 40px;
   background-color: rgba(47, 38, 38, 0.2);
   position: fixed;
+  z-index: 90;
 }
 .NavBar .logo {
   position: absolute;

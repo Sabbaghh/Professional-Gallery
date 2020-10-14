@@ -1,0 +1,61 @@
+.FirstSection {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  scroll-behavior: smooth;
+}
+
+.FirstSection .RighSide {
+  background-color: rosybrown;
+  height: 100%;
+  width: 100%;
+  background-image: url("../../../../assests/img/Gallery-FirstSection/rightside.png");
+  background-attachment: fixed;
+  background-position: right;
+  background-size: contain;
+}
+.FirstSection .LeftSide {
+  height: 100%;
+  width: 100%;
+  background-image: url("../../../../assests/img/Gallery-FirstSection/leftSide.jpg");
+  background-attachment: fixed;
+  background-position: left;
+  background-size: contain;
+}
+.Lens {
+  position: absolute;
+  width: 100%;
+  top: 15vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Lens img {
+  width: 50vh;
+}
+
+@media (max-width: 700px) {
+  .FirstSection {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .FirstSection .RighSide {
+    background-image: url("../../../../assests/img/Gallery-FirstSection/rightside.png");
+    background-attachment: fixed;
+  }
+  .Lens {
+    position: absolute;
+    width: 100%;
+    top: 30vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Lens img {
+    width: 30vh;
+  }
+}

@@ -1,7 +1,7 @@
 import React, { useState, createContext } from 'react';
 import './index.css';
 //comps
-import Logo from '../logo'
+import Logo from '../UI/logo'
 import Navigation from '../../Navigation'
 import MobNav from '../../Navigation/MobNav';
 import NavModal from '../../Navigation/MobNav/NavModal';
