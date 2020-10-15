@@ -17,7 +17,7 @@
 .FirstSection .LeftSide {
   height: 100%;
   width: 100%;
-  background-image: url("../../../../assests/img/Gallery-FirstSection/leftSide.jpg");
+  background-image: url("../../../../assests/img/Gallery-FirstSection/leftside.jpg");
   background-attachment: fixed;
   background-position: left;
   background-size: contain;
@@ -43,8 +43,10 @@
     flex-direction: column;
   }
   .FirstSection .RighSide {
-    background-image: url("../../../../assests/img/Gallery-FirstSection/rightside.png");
-    background-attachment: fixed;
+    background-size: cover;
+  }
+  .FirstSection .LeftSide {
+    background-size: cover;
   }
   .Lens {
     position: absolute;

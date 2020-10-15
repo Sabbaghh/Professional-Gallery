@@ -12,8 +12,9 @@ const Gallery = () => {
 
     useEffect(() => {
         setTotalPages(FirstSectionRef.current.props.children.length);
-        console.log('renderd')
-    }, [])
+        console.log('renderd', FirstSectionRef)
+
+    })
 
     const scrollOnclick = (index) => {
         setCurrentPage(prev => prev + 1)
@@ -31,10 +32,12 @@ const Gallery = () => {
             <ParallaxLayer offset={0} speed={0.5}>
                 <FirstSection scrollOnclick={scrollOnclick} />
             </ParallaxLayer>
-
-            <ParallaxLayer offset={1} speed={0.5} onClick={() => scrollOnclick(currentPage)}>
-                <SecondSection scrollOnclick={scrollOnclick} />
-            </ParallaxLayer>
+            {
+                currentPage === 2 ?
+                    <ParallaxLayer offset={1} speed={0.5} onClick={() => scrollOnclick(currentPage)}>
+                        <SecondSection scrollOnclick={scrollOnclick} />
+                    </ParallaxLayer> : null
+            }
 
             <ParallaxLayer offset={2} speed={0.5} onClick={() => scrollOnclick(currentPage)}>
                 <ThirdSection scrollOnclick={scrollOnclick} />
