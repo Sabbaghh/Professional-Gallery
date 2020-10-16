@@ -1,23 +1,33 @@
 import React, { useEffect } from 'react';
 import './index.css'
+
+//comps
 import ExpandArrow from '../../../UI/ExpandArrow/ExpandArrow'
-import Lens from '../../../../assests/img/Gallery-FirstSection/lens.png'
+import Lens from '../../../../assests/img/Gallery-FirstSection/lens.png';
+import Caption from './Caption';
+import CaptionTop from './Caption/MobCaption/Captiontop';
+import CaptionBottom from './Caption/MobCaption/CaptionBottom';
 
 const FirstSection = (props) => {
     useEffect(() => {
-        console.log('rendered sec1')
     }, [])
-    console.log(props)
+
+
     return (
         <>
-            <div className='FirstSection'>
-                <div className='LeftSide'></div>
-                <div className='RighSide'></div>
-                <div className='Lens'>
-                    <img src={Lens}></img>
+            <section className='FirstSection'>
+                <div className='LeftSide'>
+                    <Caption />
+                    <CaptionTop />
                 </div>
-                <ExpandArrow callBackFunction={props.scrollOnclick} />
-            </div>
+                <div className='RighSide'>
+                    <CaptionBottom />
+                </div>
+                <div className='Lens'>
+                    <img src={Lens} alt='LENS' />
+                </div>
+                <ExpandArrow />
+            </section>
 
         </>
     );

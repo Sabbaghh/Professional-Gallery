@@ -1,0 +1,33 @@
+.Caption {
+  width: 60vh;
+  line-height: 3.5rem;
+  margin-left: 1.5rem;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+  text-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+.Caption div h3 {
+  color: #ffffff;
+  font-size: 3.8rem;
+}
+
+.Caption div h2 {
+  font-size: 5rem;
+  color: #f6ea68;
+  line-height: 3.3rem;
+}
+.Caption div h1 {
+  line-height: 5.8rem;
+  font-size: 9rem;
+  color: #ffa090;
+}
+
+@media (max-width: 700px) {
+  .Caption {
+    display: none;
+  }
+}
