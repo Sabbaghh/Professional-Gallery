@@ -5,6 +5,7 @@ import Logo from '../UI/logo'
 import Navigation from '../../Navigation'
 import MobNav from '../../Navigation/MobNav';
 import NavModal from '../../Navigation/MobNav/NavModal';
+//NavLinks
 import { NavLink } from 'react-router-dom';
 export const Showcontext = createContext();
 const NavBar = () => {
@@ -15,10 +16,9 @@ const NavBar = () => {
                 {Show && <NavModal />}
                 <div className='NavBar'>
                     <div className='logo'>
-                        <NavLink exact to='/'>
-                            <Logo width='2.5rem' />
-                        </NavLink>
+                        <NavLink exact to='/'><Logo width='2.5rem' /></NavLink>
                     </div>
+                    
                     <div className='navigation'>
                         <MobNav />
                         <Navigation />

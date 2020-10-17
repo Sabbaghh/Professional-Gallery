@@ -3,9 +3,9 @@
   line-height: 3.5rem;
   margin-left: 1.5rem;
 }
-h1,
-h2,
-h3 {
+.Caption h1,
+.Caption h2,
+.Caption h3 {
   margin: 0;
   text-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
 }

@@ -25,9 +25,9 @@
     line-height: 0.75;
     color: #ffa090;
   }
-  h1,
-  h2,
-  h3 {
+  .MobCapion h1,
+  .MobCapion h2,
+  .MobCapion h3 {
     margin: 0;
     text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.4);
   }

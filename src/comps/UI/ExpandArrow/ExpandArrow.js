@@ -7,7 +7,10 @@ const ExpandArrow = ({ callBackFunction }) => {
 
     return (
         <div className='ExpandArrow'>
-            <motion.i variants={ArrowToBottom} initial='initial' animate='animate' onClick={callBackFunction} className="fas fa-angle-double-down" />
+            <motion.i
+                variants={ArrowToBottom} initial='initial'
+                animate='animate' onClick={callBackFunction}
+                className="fas fa-angle-double-down" />
         </div>
     );
 };

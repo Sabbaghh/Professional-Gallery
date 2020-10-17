@@ -8,5 +8,4 @@ const BackDrop = ({ Hide }) => {
     )
 }
 
-
 export default BackDrop;
