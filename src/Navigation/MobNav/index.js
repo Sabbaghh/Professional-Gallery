@@ -2,7 +2,7 @@ import React, { useContext, useEffect } from 'react';
 import './index.css';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Showcontext } from '../../comps/Navbar';
-import { HamShow, HamSlices } from '../../Animations/HamAnimation';
+import { HamShow } from '../../Animations/HamAnimation';
 
 
 
@@ -19,15 +19,9 @@ const MobNav = () => {
                     animate='animate'
                     exit='exit'
                     onClick={() => Show.setShow(prev => !prev)}>
-                    <motion.div
-                        variants={HamSlices}
-                        initial='initial'
-                        animate='animate'></motion.div>
                     <div></div>
-                    <motion.div
-                        variants={HamSlices}
-                        initial='initial'
-                        animate='animate'></motion.div>
+                    <div></div>
+                    <div></div>
                 </motion.div >}
         </AnimatePresence>
 

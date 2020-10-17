@@ -1,9 +1,9 @@
 import React from 'react';
 import './index.css'
 
-const SecondSection = () => {
+const SecondSection = (props) => {
     return (
-        <div className='SecondSection'>
+        <div ref={props.createRef} className='SecondSection'>
             Second SECTION
         </div>
     );

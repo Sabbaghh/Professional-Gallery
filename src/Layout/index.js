@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
 import NavBar from '../comps/Navbar';
 import Gallery from '../comps/Sections/Gallery';
-
-import { Route, Switch } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 const Layout = () => {
     useEffect(() => {

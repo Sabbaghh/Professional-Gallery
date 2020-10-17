@@ -9,8 +9,7 @@ export const HamShow = {
             transition: {
                 duration: 0.5,
                 delay: 0.3
-            },
-            when: 'beforeChildren',
+            }
         }
     },
     exit: {
@@ -18,19 +17,6 @@ export const HamShow = {
         transition: {
             duration: 0.5,
             delay: 0.5
-        }
-    }
-}
-
-export const HamSlices = {
-    initial: {
-        scale: 0.3
-    },
-    animate: {
-        scale: 1,
-        opacity: 1,
-        transition: {
-            type: 'Spring',
         }
     }
 }

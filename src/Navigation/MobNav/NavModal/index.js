@@ -7,11 +7,10 @@ import BackDrop from '../../../comps/UI/backdrop/BackDrop'
 import { Showcontext } from '../../../comps/Navbar'
 //animation
 import { motion } from 'framer-motion';
-import { transaleFromRight } from '../../../Animations/translateFromRight'
+import { transaleFromRight } from '../../../Animations/Translate'
 
 const NavModal = () => {
     const Show = useContext(Showcontext)
-    // console.log(Show)
     return (
         <>
             <BackDrop Hide={Show.setShow} />
@@ -21,8 +20,6 @@ const NavModal = () => {
                 exit='exit' className='NavModal'>
                 <NavElements />
             </motion.ul>
-
-
         </>
     );
 };
