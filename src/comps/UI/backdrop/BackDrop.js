@@ -1,10 +1,8 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import './BackDrop.css'
-import { Showcontext } from '../../Navbar';
-const BackDrop = () => {
-    const hide = useContext(Showcontext);
+const BackDrop = ({ Hide }) => {
     return (
-        <div onClick={() => hide(false)}
+        <div onClick={() => Hide(false)}
             className='BackDrop'>
         </div>
     )

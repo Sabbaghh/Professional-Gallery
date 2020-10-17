@@ -8,10 +8,12 @@ import Caption from './Caption';
 import CaptionTop from './Caption/MobCaption/Captiontop';
 import CaptionBottom from './Caption/MobCaption/CaptionBottom';
 
-const FirstSection = (props) => {
+import { LensRotate } from '../../../../Animations/LensRotate'
+import { motion } from 'framer-motion'
+
+const FirstSection = () => {
     useEffect(() => {
     }, [])
-
 
     return (
         <>
@@ -23,9 +25,12 @@ const FirstSection = (props) => {
                 <div className='RighSide'>
                     <CaptionBottom />
                 </div>
-                <div className='Lens'>
-                    <img src={Lens} alt='LENS' />
-                </div>
+                <motion.div className='Lens' variants={LensRotate} initial='initial' animate='animate'>
+                    <motion.img src={Lens} alt='LENS'
+                        drag
+                        dragConstraints={{ top: 0, right: 0, left: 0, bottom: 0 }}
+                        drag />
+                </motion.div>
                 <ExpandArrow />
             </section>
 

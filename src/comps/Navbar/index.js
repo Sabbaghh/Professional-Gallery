@@ -11,8 +11,8 @@ const NavBar = () => {
     const [Show, setShow] = useState(false);
     return (
         <>
-            <Showcontext.Provider value={setShow}>
-                {Show ? <NavModal /> : null}
+            <Showcontext.Provider value={{ setShow, Show }}>
+                {Show && <NavModal />}
                 <div className='NavBar'>
                     <div className='logo'>
                         <NavLink exact to='/'>
