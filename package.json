@@ -10,8 +10,10 @@
     "framer-motion": "^2.9.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-in-viewport": "^1.0.0-alpha.14",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
+    "react-vlist": "^0.2.1",
     "smoothscroll-polyfill": "^0.4.4"
   },
   "scripts": {

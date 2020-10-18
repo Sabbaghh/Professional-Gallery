@@ -1,0 +1,22 @@
+.img-container {
+  overflow: hidden;
+  height: 0;
+  padding: 50% 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.img-container img {
+  min-width: 80%;
+  min-height: 80%;
+  max-width: 120%;
+}
