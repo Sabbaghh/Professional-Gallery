@@ -6,7 +6,6 @@ export const transaleFromRight = {
             type: 'tween',
             duration: 0.2
         },
-        when: 'beforeChildren'
     }
 }
 
