@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import NavBar from '../comps/Navbar';
 import Gallery from '../comps/pages/Gallery';
+import About from '../comps/pages/About'
 import { Route } from 'react-router-dom';
 
 const Layout = () => {
@@ -10,7 +11,8 @@ const Layout = () => {
     return (
         <>
             <NavBar />
-            <Route exact path='/'> <Gallery /> </Route>
+            <Route exact path='/' component={Gallery} />
+            <Route path='/about' component={About} />
         </>
     );
 };

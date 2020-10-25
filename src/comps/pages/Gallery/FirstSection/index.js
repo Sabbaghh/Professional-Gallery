@@ -34,13 +34,11 @@ const FirstSection = (props) => {
                 <div className='RighSide'>
                     <CaptionBottom />
                 </div>
-
                 <motion.div className='Lens' variants={LensRotate} initial='initial' animate='animate'>
                     <motion.img src={Lens} alt='LENS' drag
                         dragConstraints={{ top: 0, right: 0, left: 0, bottom: 0 }}
                         onDragEnd={(e, info) => DragToNextPage(info.point.y)} />
                 </motion.div>
-
                 <ExpandArrow callBackFunction={() => ScrollTo('SectionTwo')} />
             </section>
 

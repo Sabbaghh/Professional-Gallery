@@ -2,12 +2,12 @@ import React, { useContext } from 'react';
 import './index.css'
 //comps
 import NavElements from '../../NavElements';
-import BackDrop from '../../../comps/UI/backdrop/BackDrop'
+import BackDrop from '../../../../comps/UI/backdrop/BackDrop'
 //context
-import { Showcontext } from '../../../comps/Navbar'
+import { Showcontext } from '../../../../comps/Navbar'
 //animation
 import { motion } from 'framer-motion';
-import { transaleFromRight } from '../../../Animations/Translate'
+import { transaleFromRight } from '../../../../Animations/Translate'
 
 const NavModal = () => {
     const Show = useContext(Showcontext)

@@ -2,9 +2,9 @@ import React, { useState, createContext } from 'react';
 import './index.css';
 //comps
 import Logo from '../UI/logo'
-import Navigation from '../../Navigation'
-import MobNav from '../../Navigation/MobNav';
-import NavModal from '../../Navigation/MobNav/NavModal';
+import Navigation from '../Navigation'
+import MobNav from '../Navigation/MobNav';
+import NavModal from '../Navigation/MobNav/NavModal';
 //NavLinks
 import { NavLink } from 'react-router-dom';
 export const Showcontext = createContext();
@@ -18,7 +18,6 @@ const NavBar = () => {
                     <div className='logo'>
                         <NavLink exact to='/'><Logo width='2.5rem' /></NavLink>
                     </div>
-                    
                     <div className='navigation'>
                         <MobNav />
                         <Navigation />

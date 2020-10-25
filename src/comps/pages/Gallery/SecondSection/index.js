@@ -4,6 +4,8 @@ import './index.css'
 import ImgList from './ImagList'
 //
 import IMGModal from '../../../UI/ImgModal';
+//
+import UploadForm from '../../../UI/UploadForm'
 
 
 const SecondSection = (props) => {
@@ -28,7 +30,9 @@ const SecondSection = (props) => {
                 }
                 <div
                     className='quote'>
-                    <h1>BLESS YOUR EYES</h1>
+                    <h1>BLESS YOUR EYES
+                        {/* <UploadForm /> */}
+                    </h1>
                 </div>
                 <div
                     className='imges-container-grid'>

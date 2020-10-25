@@ -1,8 +1,8 @@
 import React, { useContext, useEffect } from 'react';
 import './index.css';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Showcontext } from '../../comps/Navbar';
-import { HamShow } from '../../Animations/HamAnimation';
+import { Showcontext } from '../../../comps/Navbar';
+import { HamShow } from '../../../Animations/HamAnimation';
 const MobNav = () => {
     const Show = useContext(Showcontext);
     useEffect(() => {
