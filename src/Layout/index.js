@@ -11,8 +11,8 @@ const Layout = () => {
     return (
         <>
             <NavBar />
-            <Route exact path='/' component={Gallery} />
-            <Route path='/about' component={About} />
+            <Route exact path='Professional-Gallery/' component={Gallery} />
+            <Route path='Professional-Gallery/about' component={About} />
         </>
     );
 };
