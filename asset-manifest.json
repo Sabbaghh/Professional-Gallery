@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Professional-Gallery/static/css/main.9914df99.chunk.css",
+    "main.js": "/Professional-Gallery/static/js/main.dff41754.chunk.js",
+    "main.js.map": "/Professional-Gallery/static/js/main.dff41754.chunk.js.map",
+    "runtime-main.js": "/Professional-Gallery/static/js/runtime-main.826bb4a2.js",
+    "runtime-main.js.map": "/Professional-Gallery/static/js/runtime-main.826bb4a2.js.map",
+    "static/js/2.6a8d6a3d.chunk.js": "/Professional-Gallery/static/js/2.6a8d6a3d.chunk.js",
+    "static/js/2.6a8d6a3d.chunk.js.map": "/Professional-Gallery/static/js/2.6a8d6a3d.chunk.js.map",
+    "index.html": "/Professional-Gallery/index.html",
+    "precache-manifest.4889fa1a3acf7210f232cb83862df89d.js": "/Professional-Gallery/precache-manifest.4889fa1a3acf7210f232cb83862df89d.js",
+    "service-worker.js": "/Professional-Gallery/service-worker.js",
+    "static/css/main.9914df99.chunk.css.map": "/Professional-Gallery/static/css/main.9914df99.chunk.css.map",
+    "static/js/2.6a8d6a3d.chunk.js.LICENSE.txt": "/Professional-Gallery/static/js/2.6a8d6a3d.chunk.js.LICENSE.txt",
+    "static/media/Jacob.jpg": "/Professional-Gallery/static/media/Jacob.01195ba8.jpg",
+    "static/media/index.css": "/Professional-Gallery/static/media/rightside.395339e0.png",
+    "static/media/lens.png": "/Professional-Gallery/static/media/lens.0ebe0937.png",
+    "static/media/logo.png": "/Professional-Gallery/static/media/logo.11d8836a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.826bb4a2.js",
+    "static/js/2.6a8d6a3d.chunk.js",
+    "static/css/main.9914df99.chunk.css",
+    "static/js/main.dff41754.chunk.js"
+  ]
+}
