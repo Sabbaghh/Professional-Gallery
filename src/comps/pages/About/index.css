@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
 .about {
   width: 100%;
   height: 92vh;
@@ -50,12 +49,15 @@
   }
   .about .JacobVector {
     width: 95%;
+    overflow: visible;
+    margin-top: 15rem;
   }
   .about .JacobVector img {
     width: 100%;
+    border-radius: 1rem;
   }
   .about .bio {
-    width: 90%;
+    width: 100%;
     align-items: center;
   }
 }
