@@ -13,10 +13,10 @@ const NavElements = () => {
     return (
         <>
             <motion.li variants={WhileHover} whileHover='hover'>
-                <NavLink exact to='Professional-Gallery/' onClick={Hide}>GALLERY</NavLink>
+                <NavLink exact to='/Professional-Gallery/' onClick={Hide}>GALLERY</NavLink>
             </motion.li>
             <motion.li variants={WhileHover} whileHover='hover'>
-                <NavLink to='Professional-Gallery/ABOUT' onClick={Hide}>ABOUT</NavLink>
+                <NavLink to='/Professional-Gallery/ABOUT' onClick={Hide}>ABOUT</NavLink>
             </motion.li>
         </>
     )
