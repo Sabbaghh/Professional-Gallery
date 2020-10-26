@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Professional-Gallery/static/css/main.9914df99.chunk.css",
-    "main.js": "/Professional-Gallery/static/js/main.dff41754.chunk.js",
-    "main.js.map": "/Professional-Gallery/static/js/main.dff41754.chunk.js.map",
+    "main.js": "/Professional-Gallery/static/js/main.7f6dda79.chunk.js",
+    "main.js.map": "/Professional-Gallery/static/js/main.7f6dda79.chunk.js.map",
     "runtime-main.js": "/Professional-Gallery/static/js/runtime-main.826bb4a2.js",
     "runtime-main.js.map": "/Professional-Gallery/static/js/runtime-main.826bb4a2.js.map",
     "static/js/2.6a8d6a3d.chunk.js": "/Professional-Gallery/static/js/2.6a8d6a3d.chunk.js",
     "static/js/2.6a8d6a3d.chunk.js.map": "/Professional-Gallery/static/js/2.6a8d6a3d.chunk.js.map",
     "index.html": "/Professional-Gallery/index.html",
-    "precache-manifest.4889fa1a3acf7210f232cb83862df89d.js": "/Professional-Gallery/precache-manifest.4889fa1a3acf7210f232cb83862df89d.js",
+    "precache-manifest.45e6bd446db5e6504ea374a4bcfc7f20.js": "/Professional-Gallery/precache-manifest.45e6bd446db5e6504ea374a4bcfc7f20.js",
     "service-worker.js": "/Professional-Gallery/service-worker.js",
     "static/css/main.9914df99.chunk.css.map": "/Professional-Gallery/static/css/main.9914df99.chunk.css.map",
     "static/js/2.6a8d6a3d.chunk.js.LICENSE.txt": "/Professional-Gallery/static/js/2.6a8d6a3d.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.826bb4a2.js",
     "static/js/2.6a8d6a3d.chunk.js",
     "static/css/main.9914df99.chunk.css",
-    "static/js/main.dff41754.chunk.js"
+    "static/js/main.7f6dda79.chunk.js"
   ]
 }
